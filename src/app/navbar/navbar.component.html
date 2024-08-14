@@ -1,0 +1,57 @@
+
+<header class="bg-amazon_blue p-3">
+    <div
+      class="container d-flex align-items-center justify-content-between mx-3"
+    >
+      <div class="d-flex align-items-center">
+        <a routerLink="/home"><img
+          src="/assets/img/amazon.png"
+          alt="Amazon Logo"
+          class="img-fluid"
+          style="height: 40px"
+          
+        /></a>
+      </div>
+      <div class="input-group mx-5 flex-grow-1">
+        <input type="text" class="form-control" placeholder="Search" />
+        <div class="input-group-append">
+          <button class="btn btn-warning" type="button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+              </svg>
+          </button>
+        </div>
+      </div>
+      <div class="d-flex align-items-center text-white">
+        <div class="text-right mr-3 truncate-2-lines">
+          <p class="mb-0 small">
+            Hello, <span class="mb-0 font-weight-bold">User</span>
+          </p>
+        </div>
+
+        <div class="position-relative">
+          <a routerLink="/cart">
+          <img src="/assets/img/cart.png" alt="" style="height: 30px" />
+          <span
+            class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark"
+            >{{cartItemAmount}}</span
+          ></a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <nav class="bg-amazon_blue-light p-2">
+    <div class="container d-flex justify-content-between">
+      <div class="d-flex gap-4">
+        <a href="#" class="nav-link text-white ">All</a>
+        <a href="#" class="nav-link text-white ">Today's Deals</a>
+        <a routerLink="/contact" class="nav-link text-white">Contact</a>
+        <a href="#" class="nav-link text-white">Registry</a>
+        <a href="#" class="nav-link text-white">Gift Cards</a>
+        <a href="#" class="nav-link text-white">Sell</a>
+        <a routerLink="/product" class="nav-link text-white">Product</a>
+        <a routerLink="/about" class="nav-link text-white">About</a>
+      </div>
+    </div>
+  </nav>
+  <span class="container my-4"></span>

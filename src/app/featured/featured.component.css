@@ -1,0 +1,33 @@
+.card {
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-grow: 1;
+  }
+  
+  .card-title {
+    flex-grow: 1;
+  }
+  
+  .card-text {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .btn {
+    align-self: center;
+    margin-top: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }

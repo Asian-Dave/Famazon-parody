@@ -1,0 +1,144 @@
+body,
+html {
+  overflow-x: hidden;
+}
+
+.bg-amazon_blue {
+  background-color: #131921;
+}
+
+.bg-amazon_blue-light {
+  background-color: #232f3e;
+}
+
+.truncate-2-lines {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.fixed-size-card {
+  height: 450px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.fixed-size-card-body {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.fixed-image-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fixed-size-card img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  max-height: 400px;
+}
+
+.fixed-size-card-body h2,
+.fixed-size-card-body p {
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.fixed-size-card-body button {
+  margin-top: 20px;
+}
+
+.swiper-slide {
+  width: calc(100% / 4 - 40px);
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.scrolling-container {
+  overflow-x: auto;
+  white-space: nowrap;
+  padding-bottom: 1rem;
+}
+
+.scrolling-container::-webkit-scrollbar {
+  height: 0.5rem;
+}
+
+.scrolling-container::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
+}
+
+.scrolling-container .card {
+  display: inline-block;
+  width: 200px;
+  margin-right: 1rem;
+  flex: 0 0 auto;
+}
+
+.scrolling-container .card img {
+  height: 200px;
+  object-fit: contain;
+}
+
+.scrolling-container .card:last-child {
+  margin-right: 0;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  background-size: contain;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.image-container img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
